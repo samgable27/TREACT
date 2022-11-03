@@ -494,6 +494,7 @@ PRICING
 
 .buy-now__btn {
   cursor: pointer;
+  margin-top: 24px;
 }
 
 .pricing__row {
@@ -519,7 +520,6 @@ PRICING
   margin: 0 auto;
   align-items: center;
   width: 71%;
-
 }
 
 .pricing__list--wrapper {
@@ -527,12 +527,16 @@ PRICING
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 0px 18px;
 }
 
 .plan__wrapper {
   width: calc(100% / 3);
   display: flex;
   flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 100%;
 }
 
 .plan__header {
@@ -553,6 +557,10 @@ PRICING
   border-top-width: 2px;
   padding: 2rem;
   line-height: 2rem;
+}
+
+.plan__action {
+  border-top-width: 2px;
 }
 
 .main__feature {
@@ -609,9 +617,10 @@ PRICING
 }
 
 .plan__gradient--1 {
-  background: linear-gradient(115deg,
-   rgb(56, 178, 172) 0% 
-   rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0% rgb(129, 230, 217) 100%
+  );
   position: absolute;
   left: 0px;
   right: 0px;
