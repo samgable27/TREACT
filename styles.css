@@ -517,7 +517,7 @@ PRICING
 .pricing__container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   align-items: center;
   width: 71%;
 }
@@ -619,7 +619,8 @@ PRICING
 .plan__gradient--1 {
   background: linear-gradient(
     115deg,
-    rgb(56, 178, 172) 0% rgb(129, 230, 217) 100%
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
   );
   position: absolute;
   left: 0px;
